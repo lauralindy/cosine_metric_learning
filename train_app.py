@@ -29,7 +29,7 @@ def create_default_argument_parser(dataset_name):
     parser.add_argument(
         "--batch_size", help="Training batch size", default=128, type=int)
     parser.add_argument(
-        "--learning_rate", help="Learning rate", default=1e-3, type=float)
+        "--learning_rate", help="Learning rate", default=1e-4, type=float)
     parser.add_argument(
         "--eval_log_dir",
         help="Evaluation log directory (only used in mode 'evaluation').",
